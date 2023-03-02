@@ -19,9 +19,7 @@ public class MainActivity extends AppCompatActivity {
     public void SortearNumero(View view){
 
         TextView textoResultado = findViewById(R.id.textoResultado);
-
         int numeroAleatorio = new Random().nextInt(11);
-
         textoResultado.setText("Numero sorteado foi: "+ numeroAleatorio);
 
     }
